@@ -1,35 +1,42 @@
 .creator {
-  display: grid;
-  grid-template-columns: 1fr 16rem;
-  background-color: #1d90ce;
+  background-color: #ffffff;
   height: 100vh;
+  width: 100%;
 
   .content {
     overflow: auto;
-    margin: 1.5em;
+    margin: 0em;
     padding: 1em;
     background-color: white;
     border-radius: 8px;
+
+    .new-deck {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      
+
+      img {
+        max-width: 260px;
+      }
+    }
   }
 
   .card-list {
-    margin: 1.5em;
+    margin: 0em;
     overflow: auto;
+    color: red;
+
     .form-floating {
       position: fixed;
     }
 
-    .cards {
-      margin-top: 4em;
-
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
 
 
-      img {
-        width: 100%;
-      }
     }
   }
-}
+
+
+.button{
+  color: white;
+}	

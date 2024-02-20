@@ -1,5 +1,5 @@
 .list {
-  background-color: #1d90ce;
+  background-color: #141414;
   min-height: 100vh;
   padding: 2em;
   .content {
@@ -9,5 +9,11 @@
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
+  }
+
+  a.textuno{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
   }
 }

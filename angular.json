@@ -99,8 +99,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "angular-crud-17-firebase:build:production",
+              "serveTarget": "angular-crud-17-firebase:serve:production"
+            },
+            "development": {
+              "buildTarget": "angular-crud-17-firebase:build:development",
+              "serveTarget": "angular-crud-17-firebase:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fe17f437-0e40-4cdd-beb7-607567c38c1d"
   }
 }

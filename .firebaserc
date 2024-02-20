@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crud-angular17-piensa": {
+      "hosting": {
+        "angular-crud-17-firebase": [
+          "crud-angular17-piensa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crud-angular17-piensa"
+  }
+}

@@ -1,0 +1,43 @@
+.creator {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+  
+    .content {
+      overflow: auto;
+      margin: 0em;
+      padding: 1em;
+      background-color: white;
+      border-radius: 8px;
+  
+      .new-deck {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+  
+        img {
+          max-width: 260px;
+        }
+      }
+    }
+  
+    .card-list {
+      margin: 0em;
+      overflow: auto;
+      color: red;
+
+      .form-floating {
+        position: fixed;
+      }
+  
+ 
+
+      }
+    }
+  
+
+  .button{
+    color: white;
+  }	
+  
